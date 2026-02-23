@@ -1,0 +1,12 @@
+{
+  "package_generated": "2026-02-22T14:43:13.854902Z",
+  "expected_files": {
+    "sim_ndvi": "Data_Samples/Sim/NDVI/sim_ndvi.png",
+    "real_ndvi": "Data_Samples/Real/NDVI/real_ndvi.png",
+    "sim_act": "Data_Samples/Sim/Saliency/sim_saliency.png",
+    "real_act": "Data_Samples/Real/Saliency/real_saliency.png",
+    "sim_vri": "Data_Samples/Sim/Actions/sim_vri_actions.png",
+    "real_vri": "Data_Samples/Real/Actions/real_vri_actions.png"
+  },
+  "notes": "Replace placeholders with your actual outputs before assembling the 3\u00d72 figure."
+}

@@ -1,0 +1,2 @@
+6cfa10947f0050679e8bdc8f28a64b7453247664fc3a72ac875e0431d32253ae  Hardware/Jetson_Orin_Nano/runtime_logs.csv
+89f2749382bd79e86870ec0b250b54b8ad4212f64bba5a74661ca0c960195087  Hardware/Jetson_Orin_Nano/tegrastats_raw.txt

@@ -1,0 +1,96 @@
+{
+  "SettingsVersion": 1.2,
+  "SimMode": "ComputerVision",
+  "ViewMode": "NoDisplay",
+  "ClockSpeed": 1.0,
+  "TimeOfDay": {
+    "Enabled": true,
+    "StartDateTime": "2026-02-10 11:00:00",
+    "CelestialClockSpeed": 0,
+    "MoveSun": false
+  },
+  "OriginGeopoint": {
+    "Latitude": 0.0,
+    "Longitude": 0.0,
+    "Altitude": 0.0
+  },
+  "RpcEnabled": true,
+  "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 1024,
+        "Height": 1024,
+        "FOV_Degrees": 60.0,
+        "AutoExposureSpeed": 0.0,
+        "AutoExposureBias": 0.0,
+        "AutoExposureMinBrightness": 0.5,
+        "AutoExposureMaxBrightness": 0.5,
+        "MotionBlurAmount": 0,
+        "TargetGamma": 1.0
+      }
+    ],
+    "Gimbal": {
+      "Stabilization": 1
+    },
+    "NoiseSettings": [
+      {
+        "Enabled": false
+      }
+    ]
+  },
+  "Vehicles": {
+    "cvRig": {
+      "VehicleType": "ComputerVision",
+      "X": 0,
+      "Y": 0,
+      "Z": -20,
+      "Yaw": 0,
+      "Cameras": {
+        "nir": {
+          "X": 0,
+          "Y": 0.0,
+          "Z": 0,
+          "Pitch": 0,
+          "Roll": 0,
+          "Yaw": 0,
+          "CaptureSettings": [
+            {
+              "ImageType": 0
+            }
+          ]
+        },
+        "red_edge": {
+          "X": 0,
+          "Y": 0.1,
+          "Z": 0,
+          "Pitch": 0,
+          "Roll": 0,
+          "Yaw": 0,
+          "CaptureSettings": [
+            {
+              "ImageType": 0
+            }
+          ]
+        },
+        "red": {
+          "X": 0,
+          "Y": -0.1,
+          "Z": 0,
+          "Pitch": 0,
+          "Roll": 0,
+          "Yaw": 0,
+          "CaptureSettings": [
+            {
+              "ImageType": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "Recording": {
+    "RecordOnMove": false,
+    "RecordInterval": 0.05
+  }
+}

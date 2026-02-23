@@ -1,0 +1,43 @@
+{
+  "SettingsVersion": 1.2,
+  "SimMode": "ComputerVision",
+  "ViewMode": "NoDisplay",
+  "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 1024,
+        "Height": 1024,
+        "FOV_Degrees": 60,
+        "AutoExposureSpeed": 0.0,
+        "AutoExposureBias": 0.0,
+        "AutoExposureMaxBrightness": 0.5,
+        "AutoExposureMinBrightness": 0.5,
+        "MotionBlurAmount": 0,
+        "TargetGamma": 1.0
+      }
+    ]
+  },
+  "Vehicles": {
+    "cvRig": {
+      "VehicleType": "ComputerVision",
+      "Cameras": {
+        "band0_scene": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "band1_scene": {
+          "X": 0,
+          "Y": 0.1,
+          "Z": 0
+        },
+        "band2_scene": {
+          "X": 0,
+          "Y": -0.1,
+          "Z": 0
+        }
+      }
+    }
+  }
+}
